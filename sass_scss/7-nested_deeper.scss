@@ -3,8 +3,9 @@ $fs-h1: 16px;
 $fs-smaller: 12px;
 
 body {
-    font-size: $fs-body}
-    body h1 {
+    font-size: $fs-body
+    h1 {
       font-size: $fs-h1 }
-      body h1.smaller {
+      &.smaller {
         font-size: $fs-smaller}
+}
