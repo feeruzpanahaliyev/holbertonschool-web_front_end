@@ -1,0 +1,15 @@
+$b-margin-left: 10px;
+$b-margin-right: 10px;
+
+$div-margin-left: 15px;
+$div-margin-righ: 15px;
+
+body {
+    margin-left: $b-margin-left;
+    margin-right: $b-margin-right;
+}
+
+div {
+    margin-left: $div-margin-left;
+    margin-right: $div-margin-right;
+}

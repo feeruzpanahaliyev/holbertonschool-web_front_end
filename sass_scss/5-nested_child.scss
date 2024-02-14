@@ -1,0 +1,7 @@
+$b-color: #3D3D3D;
+$red-color:  #FF0000;
+
+body {
+    color: $b-color; }
+    body > .red {
+      color: $red-color; }
