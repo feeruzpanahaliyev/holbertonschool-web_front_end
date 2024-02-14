@@ -2,6 +2,7 @@ $b-color:
 $red-color;
 
 body {
-    color: $b-color; }
-    body .red {
+    color: $b-color; 
+    .red {
       color: $red-color; }
+}
