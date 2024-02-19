@@ -340,6 +340,16 @@ a:active {
   transition-property: color, background-color;
 }
 
+.button-primary {
+  color: var(--color-white);
+  background: var(--color-primary);
+}
+
+.button-primary:hover {
+  color: var(--color-primary);
+  background: var(--color-white);
+}
+
 /* Helpers
       ============================= */
 
@@ -994,3 +1004,4 @@ input:required:valid:not(:placeholder-shown),
 textarea:valid:not(:placeholder-shown) {
   border: 0.1rem solid var(--valid-color);
 }
+
